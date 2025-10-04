@@ -1,0 +1,167 @@
+.topImg {
+   display: flex;
+   justify-content: center;
+}
+
+.topImg img {
+   width: 345px;
+   height: 127px;
+   margin-top: 46px;
+}
+
+.detailsContainer {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   padding: 50px 0 50px 0;
+}
+
+.leftImg {
+   width: 710px;
+   height: 475px;
+   border-radius: 30px;
+   background: linear-gradient(to bottom left, #ffda27, #ffab38);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.leftImg img {
+   width: 425px;
+   height: 425px;
+}
+
+.reightDetails {
+   width: 710px;
+   height: 475px;
+   border-radius: 30px;
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+   border: 1px solid #e9ecef;
+   font-family: "Arial", sans-serif;
+   padding: 52px 53px 0 54px;
+}
+
+.nameInfo {
+   display: flex;
+   align-items: center;
+   gap: 24px;
+   margin-bottom: 32px;
+}
+
+.level {
+   top: 20px;
+   left: 199px;
+   width: 117px;
+   height: 41px;
+   border-radius: 20px;
+   padding: 10px 20px;
+   background-color: #ffba32;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: none;
+}
+
+.levelTwo {
+   top: 20px;
+   left: 199px;
+   width: 117px;
+   height: 41px;
+   border-radius: 20px;
+   padding: 10px 20px;
+   background-color: #ffda27;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: none;
+}
+
+.levelText {
+   font-size: 14px;
+   font-weight: 600;
+   color: #495057;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+}
+
+.info {
+   padding: 10px 15px;
+}
+
+.types {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 32px;
+}
+
+.type h3,
+.small h3 {
+   color: #323232;
+   font-weight: 500;
+   font-size: 20px;
+   margin-bottom: 9px;
+}
+
+.typeRadius,
+.smallRadius {
+   width: 21px;
+   height: 21px;
+   border-radius: 100%;
+   background-color: #ffba32;
+}
+
+.smallRadius {
+   background-color: #543502;
+}
+
+.typeLine {
+   display: flex;
+   justify-content: left;
+   gap: 4px;
+}
+
+.typeLine p {
+   font-weight: 700;
+   font-size: 20px;
+   color: #323232;
+}
+
+.vid,
+.rost {
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+   border: 1px solid #e9ecef;
+   width: 602px;
+   height: 46px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 15px;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.talants,
+.ves {
+   width: 602px;
+   height: 46px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 15px;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.pTwo {
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.slider {
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   font-size: 40px;
+   font-weight: 700;
+}
